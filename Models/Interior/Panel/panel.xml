@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+   <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.151 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.053 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AIRSPEED -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/airspeed/airspeed.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.026 </y-m>
+      <z-m> -0.029 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.095 </y-m>
+      <z-m> -0.034 </z-m>
+    </offsets>
+  </model>
+
+  <!-- THROTTLES -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/throttle/throttleL.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.166 </y-m>
+      <z-m> 0.007 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/throttle/throttleR.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.235 </y-m>
+      <z-m> 0.007 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MAN -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/man/manL.xml</path>
+    <offsets>
+      <x-m>  0.02000 </x-m>
+      <y-m>  0.17400 </y-m>
+      <z-m> -0.06449 </z-m>
+      <pitch-deg> -30 </pitch-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/man/manR.xml</path>
+    <offsets>
+      <x-m>  0.02000 </x-m>
+      <y-m>  0.24400 </y-m>
+      <z-m> -0.06449 </z-m>
+      <pitch-deg> -30 </pitch-deg>
+    </offsets>
+  </model>
+
+</PropertyList>
+

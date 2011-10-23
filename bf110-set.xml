@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="bf110-jsbsim-cnf.xml"> -->
+<PropertyList include="bf110-yasim-cnf.xml">
+
+  <sim>
+    <description>Messerschmitt BF 110 (YASim)</description>
+    <author>BARANGER Emmanuel</author>
+  </sim>
+
+</PropertyList>
+
