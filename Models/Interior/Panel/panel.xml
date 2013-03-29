@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -25,9 +25,9 @@
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m>  0.000 </x-m>
-      <y-m> -0.053 </y-m>
-      <z-m>  0.060 </z-m>
+      <x-m>  0.00261 </x-m>
+      <y-m> -0.05300 </y-m>
+      <z-m> -0.03600 </z-m>
     </offsets>
   </model>
 
@@ -65,7 +65,7 @@
     <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/throttle/throttleR.xml</path>
     <offsets>
       <x-m> 0.000 </x-m>
-      <y-m> 0.235 </y-m>
+      <y-m> 0.238 </y-m>
       <z-m> 0.007 </z-m>
     </offsets>
   </model>
@@ -74,9 +74,9 @@
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/man/manL.xml</path>
     <offsets>
-      <x-m>  0.02000 </x-m>
-      <y-m>  0.17400 </y-m>
-      <z-m> -0.06449 </z-m>
+      <x-m>  0.020 </x-m>
+      <y-m>  0.174 </y-m>
+      <z-m> -0.065 </z-m>
       <pitch-deg> -30 </pitch-deg>
     </offsets>
   </model>
@@ -84,12 +84,71 @@
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/man/manR.xml</path>
     <offsets>
-      <x-m>  0.02000 </x-m>
-      <y-m>  0.24400 </y-m>
-      <z-m> -0.06449 </z-m>
+      <x-m>  0.020 </x-m>
+      <y-m>  0.244 </y-m>
+      <z-m> -0.065 </z-m>
       <pitch-deg> -30 </pitch-deg>
     </offsets>
   </model>
 
-</PropertyList>
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.047 </y-m>
+      <z-m>  0.048 </z-m>
+    </offsets>
+  </model>
 
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.024 </y-m>
+      <z-m> 0.059 </z-m>
+    </offsets>
+  </model>
+
+  <!-- GEAR -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/gear/gear.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.233 </y-m>
+      <z-m>  0.073 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FUEL -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m>  0.014 </y-m>
+      <z-m> -0.113 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MANETTES -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/Manettes/manettes.xml</path>
+    <offsets>
+      <x-m> -0.002181 </x-m>
+      <y-m> -0.272670 </y-m>
+      <z-m> -0.034070 </z-m>
+    </offsets>
+  </model>
+
+  <!-- JAUGES -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/Jauges/jauges.xml</path>
+    <offsets>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.03769 </y-m>
+      <z-m> 0.13987 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

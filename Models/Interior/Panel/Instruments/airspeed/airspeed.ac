@@ -8,7 +8,7 @@ name "face"
 loc 0 0 -0
 data 4
 face
-texture "colors.png"
+texture "airspeed.png"
 texrep 1 1
 numvert 17
 0.002504 0.000001 -0.029786
@@ -131,7 +131,7 @@ name "fond"
 loc 0 0 -0
 data 4
 fond
-texture "colors.png"
+texture "airspeed.png"
 texrep 1 1
 numvert 296
 0.004131 -0.018726 0.018661
@@ -2229,7 +2229,7 @@ name "needle"
 loc 0 0 -0
 data 6
 needle
-texture "colors.png"
+texture "airspeed.png"
 texrep 1 1
 numvert 40
 0.003065 0.002087 -0.002087
@@ -2533,7 +2533,7 @@ name "tour"
 loc 0 0 -0
 data 4
 tour
-texture "colors.png"
+texture "airspeed.png"
 texrep 1 1
 numvert 200
 0.002313 -0.02032 0.016619
@@ -3883,7 +3883,7 @@ name "visses"
 loc 0 0 -0
 data 6
 visses
-texture "colors.png"
+texture "airspeed.png"
 texrep 1 1
 numvert 292
 0.004841 -0.027087 -0.022527

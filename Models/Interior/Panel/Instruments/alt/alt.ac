@@ -8,7 +8,7 @@ name "face"
 loc 0 0 -0
 data 4
 face
-texture "colors.png"
+texture "alt.png"
 texrep 1 1
 numvert 23
 0.002444 0.000001 -0.026708
@@ -175,7 +175,7 @@ name "fond"
 loc 0 0 -0
 data 4
 fond
-texture "colors.png"
+texture "alt.png"
 texrep 1 1
 numvert 172
 0.001374 0.019609 -0.016461
@@ -1512,7 +1512,7 @@ name "kilodisk"
 loc 0 0 -0
 data 8
 kilodisk
-texture "colors.png"
+texture "alt.png"
 texrep 1 1
 numvert 9
 0.001747 -0.018704 0.011236
@@ -1579,7 +1579,7 @@ name "knob"
 loc 0 0 -0
 data 4
 knob
-texture "colors.png"
+texture "alt.png"
 texrep 1 1
 numvert 17
 0.009663 -0.037148 0.002972
@@ -1710,7 +1710,7 @@ name "needle"
 loc 0 0 -0
 data 6
 needle
-texture "colors.png"
+texture "alt.png"
 texrep 1 1
 numvert 40
 0.002992 0.002037 -0.002035
@@ -2014,7 +2014,7 @@ name "visses"
 loc 0 0 -0
 data 6
 visses
-texture "colors.png"
+texture "alt.png"
 texrep 1 1
 numvert 736
 0.003301 0.003529 -0.007974

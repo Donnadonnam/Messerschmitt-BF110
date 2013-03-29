@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -7,6 +7,16 @@
   <animation>
     <!-- Objets opaques -->
     <object-name>interieur</object-name>
+    <object-name>structure</object-name>
+    <object-name>tuyau</object-name>
+    <object-name>attaches</object-name>
+    <object-name>arriere</object-name>
+    <object-name>plaques</object-name>
+    <object-name>seat</object-name>
+    <object-name>sides</object-name>
+    <object-name>fils</object-name>
+    <object-name>boutons</object-name>
+    <object-name>supportgun</object-name>
     <object-name>inttour</object-name>
     <object-name>inttourvitres</object-name>
     <object-name>inttourvitreG</object-name>
@@ -38,13 +48,25 @@
     <object-name>intvitreD</object-name>
   </animation>
 
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>intvitres</object-name>
+    <object-name>intvitreG</object-name>
+    <object-name>intvitreC</object-name>
+    <object-name>intvitreD</object-name>
+  </effect>
+
   <!-- Pilote -->
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Pilot/pilot.xml</path>
     <offsets>
-      <x-m> -3.844 </x-m>
+      <x-m> -3.964 </x-m>
       <y-m>  0.000 </y-m>
-      <z-m>  0.640 </z-m>
+      <z-m>  0.550 </z-m>
     </offsets>
   </model>
 
@@ -52,9 +74,9 @@
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Pilot/pilot.xml</path>
     <offsets>
-      <x-m> -1.708 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.599 </z-m>
+      <x-m> -1.91221 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.51871 </z-m>
       <heading-deg> 180 </heading-deg>
     </offsets>
   </model>
@@ -69,6 +91,26 @@
     </offsets>
   </model>
 
+  <!-- Pedals -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/Pedals/pedals.xml</path>
+    <offsets>
+      <x-m> -4.55427 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.21456 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Gun -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Guns/gun.xml</path>
+    <offsets>
+      <x-m> -1.12773 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.92856 </z-m>
+    </offsets>
+  </model>
+
   <!-- Canope -->
   <animation>
     <name>IntCanopeC</name>
@@ -77,9 +119,23 @@
   </animation>
 
   <animation>
+    <type>pick</type>
+    <object-name>IntCanopeC</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
     <type>rotate</type>
     <object-name>IntCanopeC</object-name>      
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>sim/model/door-positions/crew/position-norm</property>
     <factor> 120 </factor>  
     <center>
       <x-m> -3.274 </x-m>
@@ -100,9 +156,23 @@
   </animation>
 
   <animation>
+    <type>pick</type>
+    <object-name>IntCanopeG</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
     <type>rotate</type>
     <object-name>IntCanopeG</object-name>      
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>sim/model/door-positions/crew/position-norm</property>
     <factor> 150 </factor>  
     <center>
       <x-m> -3.654 </x-m>
@@ -123,9 +193,23 @@
   </animation>
 
   <animation>
+    <type>pick</type>
+    <object-name>IntCanopeD</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
     <type>rotate</type>
     <object-name>IntCanopeD</object-name>      
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>sim/model/door-positions/crew/position-norm</property>
     <factor> -150 </factor>  
     <center>
       <x-m> -3.654 </x-m>
@@ -140,4 +224,3 @@
   </animation>  
 
 </PropertyList>
-

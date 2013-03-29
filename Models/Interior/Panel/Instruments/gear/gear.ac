@@ -7,7 +7,7 @@ name "face"
 loc 0 0 -0
 data 4
 face
-texture "colors.png"
+texture "gear.png"
 texrep 1 1
 numvert 286
 0.006058 0.018485 0.009153
@@ -2115,7 +2115,7 @@ name "fond"
 loc 0 0 -0
 data 4
 fond
-texture "colors.png"
+texture "gear.png"
 texrep 1 1
 numvert 296
 0.002959 -0.013416 0.013369
@@ -4213,7 +4213,7 @@ name "green"
 loc 0 0 -0
 data 5
 green
-texture "colors.png"
+texture "gear.png"
 texrep 1 1
 numvert 7
 0.005255 -0.000003 -0.016341
@@ -4250,7 +4250,7 @@ name "red"
 loc 0 0 -0
 data 3
 red
-texture "colors.png"
+texture "gear.png"
 texrep 1 1
 numvert 7
 0.005049 0.01137 -0.014563
@@ -4287,7 +4287,7 @@ name "tour"
 loc 0 0 -0
 data 4
 tour
-texture "colors.png"
+texture "gear.png"
 texrep 1 1
 numvert 200
 0.001692 -0.01486 0.012155
@@ -5637,7 +5637,7 @@ name "visses"
 loc 0 0 -0
 data 6
 visses
-texture "colors.png"
+texture "gear.png"
 texrep 1 1
 numvert 292
 0.003418 -0.019363 -0.016103

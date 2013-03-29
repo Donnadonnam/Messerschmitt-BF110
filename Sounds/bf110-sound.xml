@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
  
 <PropertyList>
 
@@ -231,13 +231,22 @@
    </volume>
   </stall>
  
-<!-- no binding yet?
-  <click>
-   <name>click</name>
-   <path>Sounds/click.wav</path>
-  </click>
--->
-
+    <guns> 
+      <name>gunfire</name>
+      <mode>looped</mode>
+      <path>Aircraft/Messerschmitt-BF110/Sounds/gunsfire.wav</path>
+      <condition> 
+        <property>controls/armament/trigger</property>
+        <property>ai/submodels/submodel/count</property>
+      </condition>
+      <volume> 
+        <factor>1.2</factor>
+        <max>1.0</max>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </guns>
+ 
 </fx>
  
 </PropertyList>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
-  <chase-distance-m type="double" archive="y">-30.0</chase-distance-m>
+  <chase-distance-m type="double" archive="y"> -30 </chase-distance-m>
 
   <view n="100">
     <name>Gunner</name>
@@ -13,9 +13,9 @@
       <from-model-idx type="int">0</from-model-idx>
       <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
       <pitch-offset-deg>-5</pitch-offset-deg>
-      <x-offset-m archive="y">  0.000 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">  1.027 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -1.869 </z-offset-m> <!-- Back  -->
+      <x-offset-m archive="y">  0.00000 </x-offset-m> <!-- Right -->
+      <y-offset-m archive="y">  0.94659 </y-offset-m> <!-- Up    -->
+      <z-offset-m archive="y"> -2.07270 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> 0 </pitch-offset-deg>
       <default-field-of-view-deg> 65 </default-field-of-view-deg>
       <heading-offset-deg> 180 </heading-offset-deg>
@@ -41,9 +41,9 @@
   <view n="0">
     <internal archive="y">true</internal>
     <config>
-      <x-offset-m archive="y">  0.000 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">  1.068 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -3.684 </z-offset-m> <!-- Back  -->
+      <x-offset-m archive="y">  0.00000 </x-offset-m> <!-- Right -->
+      <y-offset-m archive="y">  0.97788 </y-offset-m> <!-- Up    -->
+      <z-offset-m archive="y"> -3.80351 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> -10 </pitch-offset-deg>
       <default-field-of-view-deg> 65 </default-field-of-view-deg>
     </config>
@@ -86,4 +86,3 @@
   </view>
 
 </PropertyList>
-
