@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+ 
+    <description>Messerschmitt BF 110 (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+   
+    <fuel-fraction>0.8</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/Messerschmitt-BF110/bf110-splash.png</splash-texture>
+    </startup>
+
+    <model>
+      <path>Aircraft/Messerschmitt-BF110/Models/bf110.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <submodels> 
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/Messerschmitt-BF110/Models/Effects/guns/submodels.xml</path>
+    </submodels>
+
+    <sound>
+      <path>Aircraft/Messerschmitt-BF110/Sounds/bf110-sound.xml</path>
+    </sound>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int" n="0">   0 </int>                                               <!--  0 immat -->
+        <int type="int" n="1">   0 </int>                                               <!--  1 immat -->
+        <int type="int" n="2">   0 </int>                                               <!--  2 immat -->
+        <int type="int" n="3">   0 </int>                                               <!--  3 immat -->
+        <int type="int" n="4">   0 </int>                                               <!--  4 immat -->
+        <int type="int" n="5">   0 </int>                                               <!--  5 immat -->
+        <int type="int" n="6">   1 </int>                                               <!--  POGO1relase -->
+        <int type="int" n="7">   1 </int>                                               <!--  POGO2relase -->
+        <int type="int" n="8" alias="/sim/model/show-immat"> 0 </int>                   <!--  6 Show immat -->
+        <int type="int" n="9">   0 </int>                                               <!--  POGO1dropped -->
+        <int type="int" n="10">  0 </int>                                               <!--  POGO2dropped -->
+        <float n="0" alias="/sim/model/door-positions/crew/position-norm"> 1 </float>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+        <float n="2" alias="/position/gear-agl-m"> 0 </float>                            <!-- altitude for MP shadow -->
+        <float n="3" alias="/position/altitude-ft"> 0 </float>                           <!-- altitude for Smoke/Trail -->
+        <float n="4" alias="/engines/engine[0]/n1" />
+        <float n="7" alias="/controls/engines/engine[0]/throttle" />
+        <string n="9" type="string" />                                                   <!-- string[9] reserved for bombable mode -->
+      </generic>
+    </multiplay>
+
+    <flaps>
+      <setting>0.00</setting>
+      <setting>0.25</setting>
+      <setting>0.50</setting>
+      <setting>0.75</setting>
+      <setting>1.00</setting>
+    </flaps>
+
+    <help>
+      <title>Messerschmitt BF 110</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close door</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/bf110-menu.xml"/>
+
+  </sim>
+
+  <controls>
+    <engines>
+      <engine n="0">
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="1">
+        <magnetos>0</magnetos>
+      </engine>
+    </engines>
+  </controls>
+
+  <engines>
+    <engine n="0">
+      <engine-num type="int">0</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="1">
+      <engine-num type="int">1</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+  </engines>
+
+  <input>
+    <keyboard include="Nasal/bf110-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <doors>
+      <file>Aircraft/Messerschmitt-BF110/Nasal/doors.nas</file>
+    </doors>
+    <bf110>
+      <file>Aircraft/Messerschmitt-BF110/Nasal/liveries.nas</file>
+      <file>Aircraft/Messerschmitt-BF110/Nasal/light.nas</file>
+    </bf110>
+    <guns>
+      <file>Aircraft/Messerschmitt-BF110/Nasal/weapons.nas</file>
+      <file>Aircraft/Messerschmitt-BF110/Nasal/revi.nas</file>
+    </guns>
+  </nasal>
+
+</PropertyList>
+
