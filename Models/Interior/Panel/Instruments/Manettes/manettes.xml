@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>manettes.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+  </animation>
+
+  <!-- MANETTE -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/Manettes/Elements/Manette/manette.xml</path>
+    <offsets>
+      <x-m>  0.060310 </x-m>
+      <y-m> -0.009317 </y-m>
+      <z-m> -0.032560 </z-m>
+      <pitch-deg> 13.31 </pitch-deg>
+    </offsets>
+  </model>
+
+  <!-- MANETTE -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/Manettes/Elements/Manette/manette.xml</path>
+    <offsets>
+      <x-m>  0.06031 </x-m>
+      <y-m>  0.01397 </y-m>
+      <z-m> -0.03256 </z-m>
+      <pitch-deg> 13.31 </pitch-deg>
+    </offsets>
+  </model>
+
+</PropertyList>

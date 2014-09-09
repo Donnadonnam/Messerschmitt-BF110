@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <cannon>
+    <model>Models/Geometry/tracer.xml</model>
+    <speed>2755.9</speed>
+    <cd>0.193</cd>
+    <weight>0.286600941</weight>
+    <eda>0.00338158219</eda>
+    <!--<pitch-offset>0</pitch-offset>-->
+    <fuse-range>0</fuse-range>
+    <life>40</life>
+    <trigger>controls/armament/trigger</trigger>
+    <expiry>true</expiry>
+    <repeat>true</repeat>
+    <delay>0.41</delay>
+    <count>33</count>
+    <wind>false</wind>
+    <collision>true</collision>
+    <impact>true</impact>
+    <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
+    <submodel-path>Aircraft/Messerschmitt-BF110/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+    <impact-reports>sim/ai/aircraft/collision/cannon</impact-reports>
+    <pitch-offset>0.1</pitch-offset>
+  </cannon>
+
+  <submodel>
+    <name>left gun top</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <impact alias="../../cannon/impact"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <x-offset> 19.6011530 </x-offset> <!-- -5.97414 m =  19.6011530 ft -->
+    <y-offset>  0.3609100 </y-offset> <!-- -0.11000 m =   0.3609100 ft -->
+    <z-offset>  1.7418173 </z-offset> <!--  0.53088 m =   1.7418173 ft -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+  </submodel>
+
+  <submodel>
+    <name>left smoke top</name>
+    <model>Aircraft/Messerschmitt-BF110/Models/Effects/guns/smoke.xml</model>
+    <trigger alias="../../cannon/trigger"/>
+    <speed>200</speed>
+    <repeat>true</repeat>
+    <delay>0.08</delay>
+    <count>160</count>
+    <x-offset> 19.6011530 </x-offset> <!-- -5.97414 m =  19.6011530 ft -->
+    <y-offset>  0.3609100 </y-offset> <!-- -0.11000 m =   0.3609100 ft -->
+    <z-offset>  1.7418173 </z-offset> <!--  0.53088 m =   1.7418173 ft -->
+    <yaw-offset>-60</yaw-offset>
+    <pitch-offset>-60</pitch-offset>
+    <eda>10</eda>
+    <wind>true</wind>
+    <buoyancy>33</buoyancy>
+    <life>5</life>
+  </submodel>
+
+  <submodel>
+    <name>right gun top</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <impact alias="../../cannon/impact"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <x-offset> 20.73224500 </x-offset> <!-- -6.31888 m =  20.73224500 ft -->
+    <y-offset> -0.35956479 </y-offset> <!--  0.10959 m =  -0.35956479 ft -->
+    <z-offset>  1.74181730 </z-offset> <!--  0.53088 m =   1.74181730 ft -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+  </submodel>
+
+  <submodel>
+    <name>right smoke top</name>
+    <model>Aircraft/Messerschmitt-BF110/Models/Effects/guns/smoke.xml</model>
+    <trigger alias="../../cannon/trigger"/>
+    <speed>200</speed>
+    <repeat>true</repeat>
+    <delay>0.08</delay>
+    <count>160</count>
+    <x-offset> 20.73224500 </x-offset> <!-- -6.31888 m =  20.73224500 ft -->
+    <y-offset> -0.35956479 </y-offset> <!--  0.10959 m =  -0.35956479 ft -->
+    <z-offset>  1.74181730 </z-offset> <!--  0.53088 m =   1.74181730 ft -->
+    <yaw-offset>-60</yaw-offset>
+    <pitch-offset>-60</pitch-offset>
+    <eda>10</eda>
+    <wind>true</wind>
+    <buoyancy>33</buoyancy>
+    <life>5</life>
+  </submodel>
+
+  <submodel>
+    <name>left gun center</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <impact alias="../../cannon/impact"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <x-offset> 18.8955410 </x-offset> <!-- -5.75908 m =  18.8955410 ft -->
+    <y-offset>  0.7086960 </y-offset> <!-- -0.21600 m =   0.7086960 ft -->
+    <z-offset>  1.3316923 </z-offset> <!--  0.40588 m =   1.3316923 ft -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+  </submodel>
+
+  <submodel>
+    <name>left smoke center</name>
+    <model>Aircraft/Messerschmitt-BF110/Models/Effects/guns/smoke.xml</model>
+    <trigger alias="../../cannon/trigger"/>
+    <speed>200</speed>
+    <repeat>true</repeat>
+    <delay>0.08</delay>
+    <count>160</count>
+    <x-offset> 18.8955410 </x-offset> <!-- -5.75908 m =  18.8955410 ft -->
+    <y-offset>  0.7086960 </y-offset> <!-- -0.21600 m =   0.7086960 ft -->
+    <z-offset>  1.3316923 </z-offset> <!--  0.40588 m =   1.3316923 ft -->
+    <yaw-offset>-60</yaw-offset>
+    <pitch-offset>-60</pitch-offset>
+    <eda>10</eda>
+    <wind>true</wind>
+    <buoyancy>33</buoyancy>
+    <life>5</life>
+  </submodel>
+
+  <submodel>
+    <name>right gun center</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <impact alias="../../cannon/impact"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <x-offset> 19.1580210 </x-offset> <!-- -5.83908 m =  19.1580210 ft -->
+    <y-offset> -0.7086960 </y-offset> <!--  0.21600 m =  -0.7086960 ft -->
+    <z-offset>  1.3316923 </z-offset> <!--  0.40588 m =   1.3316923 ft -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+  </submodel>
+
+  <submodel>
+    <name>right smoke center</name>
+    <model>Aircraft/Messerschmitt-BF110/Models/Effects/guns/smoke.xml</model>
+    <trigger alias="../../cannon/trigger"/>
+    <speed>200</speed>
+    <repeat>true</repeat>
+    <delay>0.08</delay>
+    <count>160</count>
+    <x-offset> 19.1580210 </x-offset> <!-- -5.83908 m =  19.1580210 ft -->
+    <y-offset> -0.7086960 </y-offset> <!--  0.21600 m =  -0.7086960 ft -->
+    <z-offset>  1.3316923 </z-offset> <!--  0.40588 m =   1.3316923 ft -->
+    <yaw-offset>-60</yaw-offset>
+    <pitch-offset>-60</pitch-offset>
+    <eda>10</eda>
+    <wind>true</wind>
+    <buoyancy>33</buoyancy>
+    <life>5</life>
+  </submodel>
+
+  <submodel>
+    <name>left gun bottom</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <impact alias="../../cannon/impact"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <x-offset> 17.91124100 </x-offset> <!-- -5.45908 m =  17.91124100 ft -->
+    <y-offset>  0.42131321 </y-offset> <!-- -0.12841 m =   0.42131321 ft -->
+    <z-offset> -0.51370617 </z-offset> <!-- -0.15657 m =  -0.51370617 ft -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+  </submodel>
+
+  <submodel>
+    <name>left smoke bottom</name>
+    <model>Aircraft/Messerschmitt-BF110/Models/Effects/guns/smoke.xml</model>
+    <trigger alias="../../cannon/trigger"/>
+    <speed>200</speed>
+    <repeat>true</repeat>
+    <delay>0.08</delay>
+    <count>160</count>
+    <x-offset> 17.91124100 </x-offset> <!-- -5.45908 m =  17.91124100 ft -->
+    <y-offset>  0.42131321 </y-offset> <!-- -0.12841 m =   0.42131321 ft -->
+    <z-offset> -0.51370617 </z-offset> <!-- -0.15657 m =  -0.51370617 ft -->
+    <yaw-offset>-60</yaw-offset>
+    <pitch-offset>-60</pitch-offset>
+    <eda>10</eda>
+    <wind>true</wind>
+    <buoyancy>33</buoyancy>
+    <life>5</life>
+  </submodel>
+
+  <submodel>
+    <name>right gun bottom</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <impact alias="../../cannon/impact"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <x-offset> 17.91124100 </x-offset> <!-- -5.45908 m =  17.91124100 ft -->
+    <y-offset> -0.42131321 </y-offset> <!--  0.12841 m =  -0.42131321 ft -->
+    <z-offset> -0.51370617 </z-offset> <!-- -0.15657 m =  -0.51370617 ft -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+  </submodel>
+
+  <submodel>
+    <name>right smoke bottom</name>
+    <model>Aircraft/Messerschmitt-BF110/Models/Effects/guns/smoke.xml</model>
+    <trigger alias="../../cannon/trigger"/>
+    <speed>200</speed>
+    <repeat>true</repeat>
+    <delay>0.08</delay>
+    <count>160</count>
+    <x-offset> 17.91124100 </x-offset> <!-- -5.45908 m =  17.91124100 ft -->
+    <y-offset> -0.42131321 </y-offset> <!--  0.12841 m =  -0.42131321 ft -->
+    <z-offset> -0.51370617 </z-offset> <!-- -0.15657 m =  -0.51370617 ft -->
+    <yaw-offset>-60</yaw-offset>
+    <pitch-offset>-60</pitch-offset>
+    <eda>10</eda>
+    <wind>true</wind>
+    <buoyancy>33</buoyancy>
+    <life>5</life>
+  </submodel>
+
+</PropertyList>

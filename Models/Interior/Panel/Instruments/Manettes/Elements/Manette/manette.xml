@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>manette.ac</path>
+
+  <animation>
+    <object-name>base</object-name>
+    <object-name>levier</object-name>
+    <object-name>visses</object-name>
+  </animation>
+  
+  <!-- Rotation du levier
+  <center>
+    <x-m>  0.020050 </x-m>
+    <y-m> -0.006416 </y-m>
+    <z-m>  0.000000 </z-m>
+  </center>
+  -->
+
+</PropertyList>
