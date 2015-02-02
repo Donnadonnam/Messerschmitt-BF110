@@ -95,9 +95,9 @@
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/turn/turn.xml</path>
     <offsets>
-      <x-m>  0.001 </x-m>
-      <y-m> -0.047 </y-m>
-      <z-m>  0.048 </z-m>
+      <x-m> 0.001 </x-m>
+      <y-m> 0.024 </y-m>
+      <z-m> 0.059 </z-m>
     </offsets>
   </model>
 
@@ -106,8 +106,8 @@
     <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> 0.000 </x-m>
-      <y-m> 0.024 </y-m>
-      <z-m> 0.059 </z-m>
+      <y-m> 0.095 </y-m>
+      <z-m> 0.050 </z-m>
     </offsets>
   </model>
 
@@ -123,7 +123,17 @@
 
   <!-- FUEL -->
   <model>
-    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/fuel/fuel0.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.061 </y-m>
+      <z-m> -0.113 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/fuel/fuel1.xml</path>
     <offsets>
       <x-m>  0.001 </x-m>
       <y-m>  0.014 </y-m>
@@ -151,4 +161,14 @@
     </offsets>
   </model>
 
+  <!-- COMPASS2 -->
+  <model>
+    <path>Aircraft/Messerschmitt-BF110/Models/Interior/Panel/Instruments/compass2/compass2.xml</path>
+    <offsets>
+      <x-m> -0.00252 </x-m>
+      <y-m> -0.15100 </y-m>
+      <z-m> -0.04603 </z-m>
+    </offsets>
+  </model>
+  
 </PropertyList>

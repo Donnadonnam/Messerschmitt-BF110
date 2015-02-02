@@ -22,26 +22,12 @@
     <object-name>inttourvitreG</object-name>
     <object-name>inttourvitreC</object-name>
     <object-name>inttourvitreD</object-name>
-
+    <object-name>intporteGE</object-name>
+    <object-name>intporteGI</object-name>
+    <object-name>intporteDE</object-name>
+    <object-name>intporteDI</object-name>
+    
     <!-- Objets transparents -->
-    <object-name>intvitres</object-name>
-    <object-name>intvitreG</object-name>
-    <object-name>intvitreC</object-name>
-    <object-name>intvitreD</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
-    <object-name>intvitres</object-name>
-    <object-name>intvitreG</object-name>
-    <object-name>intvitreC</object-name>
-    <object-name>intvitreD</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
     <object-name>intvitres</object-name>
     <object-name>intvitreG</object-name>
     <object-name>intvitreC</object-name>
@@ -50,16 +36,22 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
-    <condition>
-      <property>sim/rendering/rembrandt/enabled</property>
-    </condition>
+    <inherits-from>Aircraft/Messerschmitt-BF110/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
     <object-name>intvitreG</object-name>
     <object-name>intvitreC</object-name>
     <object-name>intvitreD</object-name>
   </effect>
-
+  
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>intvitres</object-name>
+    <object-name>intvitreG</object-name>
+    <object-name>intvitreC</object-name>
+    <object-name>intvitreD</object-name>
+  </effect>
+  
   <!-- Pilote -->
   <model>
     <path>Aircraft/Messerschmitt-BF110/Models/Pilot/pilot.xml</path>
@@ -186,6 +178,83 @@
     </axis>
   </animation>  
 
+  <!-- Portes des trains -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intporteGE</object-name>
+    <property>gear/gear[0]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 0.2 </ind><dep> -60 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -60 </dep></entry>
+    </interpolation>
+    <axis>
+      <x1-m> -2.884 </x1-m>
+      <y1-m> -2.726 </y1-m>
+      <z1-m> -0.415 </z1-m>
+      <x2-m> -1.623 </x2-m>
+      <y2-m> -2.665 </y2-m>
+      <z2-m> -0.415 </z2-m>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intporteGI</object-name>
+    <property>gear/gear[0]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 0.2 </ind><dep> 60 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 60 </dep></entry>
+    </interpolation>
+    <axis>
+      <x1-m> -2.884 </x1-m>
+      <y1-m> -1.993 </y1-m>
+      <z1-m> -0.415 </z1-m>
+      <x2-m> -1.623 </x2-m>
+      <y2-m> -2.055 </y2-m>
+      <z2-m> -0.415 </z2-m>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intporteDI</object-name>
+    <property>gear/gear[1]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 0.2 </ind><dep> -60 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -60 </dep></entry>
+    </interpolation>
+    <axis>
+      <x1-m> -2.884 </x1-m>
+      <y1-m>  1.993 </y1-m>
+      <z1-m> -0.415 </z1-m>
+      <x2-m> -1.623 </x2-m>
+      <y2-m>  2.055 </y2-m>
+      <z2-m> -0.415 </z2-m>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intporteDE</object-name>
+    <property>gear/gear[1]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 0.2 </ind><dep> 60 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 60 </dep></entry>
+    </interpolation>
+    <axis>
+      <x1-m> -2.884 </x1-m>
+      <y1-m>  2.726 </y1-m>
+      <z1-m> -0.415 </z1-m>
+      <x2-m> -1.623 </x2-m>
+      <y2-m>  2.665 </y2-m>
+      <z2-m> -0.415 </z2-m>
+    </axis>
+  </animation>
+  
   <animation>
     <name>IntCanopeD</name>
     <object-name>intvitreD</object-name>

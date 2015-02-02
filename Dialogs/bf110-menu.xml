@@ -13,8 +13,14 @@
           <script>aircraft.livery.dialog.toggle()</script>
         </binding>
       </item>
+      <item>
+        <label>Show/hide radar antena</label>
+        <binding>
+          <command>property-toggle</command>
+          <property>/sim/model/antennesradar</property>
+        </binding>
+      </item>
     </menu>
   </default>
 
 </PropertyList>
-

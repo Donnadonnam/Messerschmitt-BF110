@@ -9,7 +9,7 @@ data 4
 base
 texture "manette.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 96
 -0.000067 -0.034537 -0.010268
 -0 -0.034537 0.010394
@@ -773,7 +773,7 @@ data 6
 levier
 texture "manette.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 498
 -0.001096 0.005508 -0
 -0.002149 0.005188 -0
@@ -4858,7 +4858,7 @@ data 6
 visses
 texture "manette.png"
 texrep 1.000000 1.000000
-crease 30.000001
+crease 180.000005
 numvert 324
 -0.002038 -0 -0.002446
 -0.001505 0 -0.002446
