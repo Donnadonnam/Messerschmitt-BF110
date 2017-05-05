@@ -12,6 +12,20 @@
     <flight-model>yasim</flight-model>
     <aero>bf110-yasim</aero>
 
+    <tags>
+      <tag>messerschmitt</tag>
+      <tag>low-wing</tag>
+      <tag>tail-dragger</tag>
+      <tag>retractable-gear</tag>
+      <tag>castering-wheel</tag>
+      <tag>twin-engine</tag>
+      <tag>piston</tag>
+      <tag>propeller</tag>
+      <tag>fighter</tag>
+      <tag>1940s</tag>
+      <tag>ww2</tag>
+    </tags>
+
     <rating>
       <FDM type="int">     2 </FDM>
       <systems type="int"> 3 </systems>
